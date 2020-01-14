@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dpd
+#open	2019-11-16-20-09-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	analyzer	failure_reason
+#types	time	string	addr	port	addr	port	enum	string	string
+1566622602.403308	C9h7w63sDhHeI8qhD4	192.168.134.130	31310	47.91.202.166	80	tcp	HTTP	not a http reply line
+1566622602.420462	CgNhBi4mFpJTujH0Hb	192.168.134.130	31311	47.91.202.166	80	tcp	HTTP	not a http reply line
+1566622602.436019	CZb2NA1BPe8Gwfzp2e	192.168.134.130	31312	47.91.202.166	80	tcp	HTTP	not a http reply line
+#close	2019-11-16-20-10-06

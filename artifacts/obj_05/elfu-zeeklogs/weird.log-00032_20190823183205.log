@@ -1,0 +1,97 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2019-11-16-19-59-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1566585157.217232	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585188.937484	CNx5LN2cODg83bG9nb	192.168.134.131	23778	172.217.197.157	443	possible_split_routing	-	F	bro
+1566585188.938575	CNx5LN2cODg83bG9nb	192.168.134.131	23778	172.217.197.157	443	window_recision	-	F	bro
+1566585204.332462	Cg1uw5pOFHEpBQN62	192.168.134.134	5353	224.0.0.251	5353	dns_unmatched_reply	-	F	bro
+1566585204.333043	CbXSOK3bWSa5RGF6p	fe80::e5a9:536:ef8c:4445	5353	ff02::fb	5353	dns_unmatched_reply	-	F	bro
+1566585206.023672	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1566585216.029128	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585216.030334	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585224.180399	CUpzM64RLobgPyVgEl	192.168.134.130	5353	224.0.0.251	5353	dns_unmatched_reply	-	F	bro
+1566585224.180800	CfR5mLdwtALa68Fej	fe80::31d9:1f63:decf:985a	5353	ff02::fb	5353	dns_unmatched_reply	-	F	bro
+1566585224.348191	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585224.348191	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585226.413800	CirmZF2wn6qbmzviR7	192.168.134.135	5353	224.0.0.251	5353	dns_unmatched_reply	-	F	bro
+1566585226.414318	CTURjB2dOdXmtSs3zc	fe80::e03e:de21:7e5d:71cf	5353	ff02::fb	5353	dns_unmatched_reply	-	F	bro
+1566585232.285073	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585232.285073	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585242.286627	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585242.286627	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585244.216426	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585244.216426	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585254.840913	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585254.840913	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585255.223019	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585255.223688	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585256.416885	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585256.416885	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585265.315205	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585270.264224	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585270.789508	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585270.789508	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585276.581973	CcQFR42eapAfiXZwRf	192.168.134.132	5353	224.0.0.251	5353	dns_unmatched_reply	-	F	bro
+1566585276.582371	CZXY902Ppco3RIOWH9	fe80::fde4:9ccf:e7a0:8101	5353	ff02::fb	5353	dns_unmatched_reply	-	F	bro
+1566585280.790129	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585284.335267	CBp1NQ25RhgQgXoPFb	192.168.134.129	20419	192.0.66.2	443	SYN_after_close	-	F	bro
+1566585285.334065	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585296.585504	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585296.585504	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585306.608327	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585306.608327	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585314.047953	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585321.381739	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585340.889913	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585340.890616	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585350.902993	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585355.465653	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585374.350334	CQowcdHVMpa58ydFg	192.168.134.131	5353	224.0.0.251	5353	dns_unmatched_reply	-	F	bro
+1566585374.350930	CXmVHqwv5fQTm8L01	fe80::8cf1:7e9:b3f2:238c	5353	ff02::fb	5353	dns_unmatched_reply	-	F	bro
+1566585394.354587	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585394.354587	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585418.947140	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585418.947140	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585425.083175	CYPwr92WMeT3gy5ve2	192.168.134.131	24296	157.185.176.56	80	unescaped_special_URI_char	-	F	bro
+1566585425.144384	CYpJw82cR2vSPi66eg	192.168.134.131	24303	157.185.176.56	80	unescaped_special_URI_char	-	F	bro
+1566585425.144607	CumS8X2HLmvdwzUQs8	192.168.134.131	24305	157.185.176.56	80	unescaped_special_URI_char	-	F	bro
+1566585425.148620	Cder3t3wUfA7lknPPd	192.168.134.131	24302	157.185.176.56	80	unescaped_special_URI_char	-	F	bro
+1566585425.269791	CA5jOH3PwvjOVps3fe	192.168.134.131	24292	157.185.176.56	80	unescaped_special_URI_char	-	F	bro
+1566585444.675389	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585449.197985	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585476.068081	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585478.719638	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585511.943421	CVoRBr11QX3FqYeT57	192.168.134.133	5353	224.0.0.251	5353	dns_unmatched_reply	-	F	bro
+1566585511.943838	CeI6yt29zwQFPPpZJ6	fe80::2008:ce51:e05c:7c1a	5353	ff02::fb	5353	dns_unmatched_reply	-	F	bro
+1566585531.950896	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585531.950896	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585538.259082	CQUacO22zsfy5P6Iqb	192.168.134.129	5353	224.0.0.251	5353	dns_unmatched_reply	-	F	bro
+1566585538.260155	C7k8Ft13tHpRExjxq5	fe80::75f8:a759:bc14:e464	5353	ff02::fb	5353	dns_unmatched_reply	-	F	bro
+1566585568.570106	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585568.570106	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585598.669205	CgkpDvrz9gARKRqZ9	192.168.134.131	24629	172.217.10.142	443	SYN_after_close	-	F	bro
+1566585604.471335	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585703.157853	CbEDDG2E4yIYBj91R7	192.168.134.129	21109	219.143.226.15	80	unescaped_%_in_URI	-	F	bro
+1566585703.182565	CXEisD4rhKAPRKoJlj	192.168.134.129	21111	103.25.21.68	80	unescaped_%_in_URI	-	F	bro
+1566585776.783175	CqL66c4fWj5j8lakpl	192.168.134.129	21185	130.248.144.17	443	SYN_after_close	-	F	bro
+1566585848.316555	CL2ymN1HKPn599dSJe	192.168.134.134	5353	224.0.0.251	5353	dns_unmatched_reply	-	F	bro
+1566585848.317021	CGn6hj2c6Bhrcmnjs8	fe80::e5a9:536:ef8c:4445	5353	ff02::fb	5353	dns_unmatched_reply	-	F	bro
+1566585862.104921	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585862.104921	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585862.104921	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585862.104921	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585863.112025	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585863.112025	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585868.324697	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585868.324697	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585877.736289	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585878.593361	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585878.593361	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585883.143687	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1566585888.634754	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+#close	2019-11-16-19-59-28

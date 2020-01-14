@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dpd
+#open	2019-11-16-19-51-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	analyzer	failure_reason
+#types	time	string	addr	port	addr	port	enum	string	string
+1566562607.672273	C4x0oG4ydigY7sYaSb	192.168.134.129	2704	62.4.0.3	443	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 8516
+1566562607.725169	CfBLsa4rSnF6Z4bUX7	192.168.134.129	2705	62.4.0.3	443	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 8516
+#close	2019-11-16-19-51-59

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dpd
+#open	2019-11-16-19-56-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	analyzer	failure_reason
+#types	time	string	addr	port	addr	port	enum	string	string
+1566576142.216829	CwpFjZ1ysN6ZcjkLai	192.168.134.130	56754	184.102.192.173	60915	udp	DTLS	Invalid version in DTLS connection. Packet reported version: 256
+1566576142.505067	CYFVWv42Rpo6HfBgie	192.168.134.130	51062	198.84.162.233	55629	udp	DTLS	Invalid version in DTLS connection. Packet reported version: 256
+1566576142.598884	CJsKXvQHnQSfICzO7	192.168.134.130	51060	77.21.252.40	16245	udp	DTLS	Invalid version in DTLS connection. Packet reported version: 256
+#close	2019-11-16-19-56-20

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dpd
+#open	2019-11-16-20-00-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	analyzer	failure_reason
+#types	time	string	addr	port	addr	port	enum	string	string
+1566589502.208186	Cy3j1M2dyNFXnfz3R5	192.168.134.131	61906	146.200.40.199	40121	udp	DTLS	Invalid version in DTLS connection. Packet reported version: 256
+#close	2019-11-16-20-00-41
