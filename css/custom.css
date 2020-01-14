@@ -1,0 +1,80 @@
+@font-face { font-family: "Source Code Pro"; src: url("../fonts/scp.otf") format("opentype") }
+@font-face { font-family: "Symbola"; src: url("../fonts/Symbola.ttf") }
+
+#content {
+    max-width:1800px;
+    width:fit-content(20em);
+}
+
+p, li, .warning, pre.src, pre.example {
+    max-width:1200px;
+    width:auto;
+}
+
+pre.src, pre.example {
+    background: #073642;
+    color: #fdf6e3;
+    font-family: "Source Code Pro", "Symbola", "Courier New", Courier, monospace;
+    line-height: normal;
+}
+
+a:link { color:#268bd2; }
+a:visited { color:#6c71c4; }
+
+#content .admonition-title.chat{
+    line-height: 1;
+    background:#cb4b16;
+}
+
+#content .admonition-title.goal{
+    line-height: 1;
+    background:#859900;
+}
+
+#content .admonition-title.gamehint{
+    line-height: 1;
+    background:#268bd2;
+}
+
+#content .admonition-title.trailhint{
+    line-height: 1;
+    background:#2aa198;
+}
+
+#content .gamehint, #content .goal, #content .chat, #content .trailhint{
+    background:#073642;
+    color: #fdf6e3;
+
+    max-width: 1200px;
+    width: auto;
+
+    box-shadow: 3px 3px 3px #eee;
+    margin: 0 1.2em 0 1.2em;
+}
+
+#content .gamehint p, #content .goal p, #content .chat p, #content .trailhint p{
+    padding: 0 12px 0 12px;
+}
+
+#content .goal p {
+    font-weight: bold;
+}
+
+#content .chat p{
+    font-style: italic;
+}
+
+.goal p code, .chat p code, .gamehint p code, .trailhint p code, .gamehint ul li code{
+    background: #073642;
+    color: #fdf6e3;
+    border: none;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.figure-number { display: none; }
+
+.red { color: #dc322f }
+.green { color: #859900 }
+.purple { color: #6c71c4 }
+.gray1 { color: #839496 }
