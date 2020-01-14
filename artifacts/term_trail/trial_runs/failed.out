@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "solution.py", line 200, in <module>
+    main()
+  File "solution.py", line 160, in main
+    '3': lock_3(token),
+  File "solution.py", line 69, in lock_3
+    return pytesseract.image_to_string(Image.open(BytesIO(s.get('https://' + domain + '/images/%s.png' % token).content)))
+  File "/home/grigorescu/venv/lib64/python3.6/site-packages/pytesseract/pytesseract.py", line 345, in image_to_string
+    }[output_type]()
+  File "/home/grigorescu/venv/lib64/python3.6/site-packages/pytesseract/pytesseract.py", line 344, in <lambda>
+    Output.STRING: lambda: run_and_get_output(*args),
+  File "/home/grigorescu/venv/lib64/python3.6/site-packages/pytesseract/pytesseract.py", line 253, in run_and_get_output
+    run_tesseract(**kwargs)
+  File "/home/grigorescu/venv/lib64/python3.6/site-packages/pytesseract/pytesseract.py", line 227, in run_tesseract
+    with timeout_manager(proc, timeout) as error_string:
+  File "/usr/lib64/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/grigorescu/venv/lib64/python3.6/site-packages/pytesseract/pytesseract.py", line 95, in timeout_manager
+    yield proc.communicate()[1]
+  File "/usr/lib64/python3.6/subprocess.py", line 863, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/usr/lib64/python3.6/subprocess.py", line 1534, in _communicate
+    ready = selector.select(timeout)
+  File "/usr/lib64/python3.6/selectors.py", line 376, in select
+    fd_event_list = self._poll.poll(timeout)
+KeyboardInterrupt
